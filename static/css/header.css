@@ -4,133 +4,130 @@
 }
 /* header */
 #header{
-height: 128px;
-padding-right: 100px;
-background: #212830;
-z-index: 1;
-width: 100%;
+    height: 128px;
+    padding-right: 100px;
+    background: #212830;
+    z-index: 1;
+    width: 100%;
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
-display: flex;
-justify-content: space-between;
-}
+    display: flex;
+    justify-content: space-between;
+    }
 
-/* logo */
-#logo{
-width: 472px;
-height: 128px;
-left: 0px;
-top: 0px;
-z-index: 2;
+    /* logo */
+    #logo{
+    width: 472px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
 }
 
 /* header_main */
 #header_main{
 /* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px 30px;
-gap: 50px;
-
-
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 50px;
 }
 
 #main1{
 /* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-
-margin: 0 auto;
-width: 168px;
-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    width: 168px;
+    height: 100%;
 
 
 /* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-
 
 #main2{
 /* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
-margin: 0 auto;
-width: 150px;
-height: 100%;
+    margin: 0 auto;
+    width: 150px;
+    height: 100%;
 
 
 /* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
 }
 
 #main3{
 /* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
-margin: 0 auto;
-width: 138px;
-height: 100%;
+    margin: 0 auto;
+    width: 138px;
+    height: 100%;
 
 
 /* Inside auto layout */
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 
@@ -142,61 +139,61 @@ flex-grow: 0;
 /* Frame 6 */
 #main4{
 /* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
-margin: 0 auto;
+    margin: 0 auto;
 
-height: 100%;
+    height: 100%;
 
 
-/* Inside auto layout */
-flex: none;
-order: 3;
-align-self: stretch;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 #main5{
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
-margin: 0 auto;
-width: 206px;
-height: 100%;
+    margin: 0 auto;
+    width: 206px;
+    height: 100%;
 
 
-/* Inside auto layout */
-flex: none;
-order: 4;
-align-self: stretch;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-color: #FFFFFF;
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 
@@ -204,4 +201,42 @@ flex-grow: 0;
 #icon1{
     width: 68px;
     height: 42px;
+}
+#main1:hover{
+    cursor: pointer;
+    border-bottom: 5px solid lightblue;
+}
+#main1:hover .header_sub{
+    
+    display: flex;
+}
+.header_sub{
+    position: absolute;
+    display: none;
+    width: 100vw;
+    height: 500px;
+    top: 128px;
+    left:-652px;
+    z-index: 5;
+    background: white;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+.header_sub1{
+    z-index: 6;
+    width: 20%;
+    height: 100%;
+    font-size: 30px;
+    padding: 30px 50px;
+}
+.header_sub2{
+    z-index: 6;
+    width: 200px;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
 }
