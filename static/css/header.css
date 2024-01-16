@@ -8,7 +8,7 @@
     padding-right: 100px;
     background: #212830;
     z-index: 1;
-    width: 100%;
+    width: 100vw;
 
     /* Inside auto layout */
     flex: none;
