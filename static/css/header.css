@@ -202,14 +202,26 @@
     width: 68px;
     height: 42px;
 }
-#main1:hover{
+#main1:hover,#main2:hover,#main3:hover,#main4:hover, #main5:hover{
     cursor: pointer;
     border-bottom: 5px solid lightblue;
 }
 #main1:hover .header_sub{
-    
     display: flex;
 }
+#main2:hover .header_sub{
+    display: flex;
+}
+#main3:hover .header_sub{
+    display: flex;
+}
+#main4:hover .header_sub{
+    display: flex;
+}
+#main5:hover .header_sub{
+    display: flex;
+}
+
 .header_sub{
     position: absolute;
     display: none;
@@ -233,7 +245,7 @@
 }
 .header_sub2{
     z-index: 6;
-    width: 200px;
+    width: 300px;
     height: 100%;
     font-size: 20px;
     display: flex;

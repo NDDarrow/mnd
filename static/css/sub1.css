@@ -52,7 +52,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.main_box:hover{
+    cursor: pointer;
+}
 
 /* Inside auto layout */
 
