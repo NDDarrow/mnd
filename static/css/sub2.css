@@ -70,13 +70,28 @@
     border-top:  3px solid black;
 }
 
-#main_detail_right1{
+#main_detail_right1{ /*육군*/
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    display: none;
+}
+#main_detail_right2{ /*공군*/
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    display: none;
+}
+#main_detail_right3{ /*해군*/
+    width: calc(100% - 400px);
+    box-sizing: border-box;
+    display: none;
+}
+#main_detail_right4{ /*기타*/
     width: calc(100% - 400px);
     box-sizing: border-box;
 }
 .main_detail_right_head{
     height: 100px;
-    width: 100%;
+        width: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: row;
