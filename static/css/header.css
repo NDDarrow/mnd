@@ -37,7 +37,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-    gap: 50px;
 }
 
 #main1{
@@ -48,8 +47,9 @@
     align-items: center;
     gap: 10px;
     margin: 0 auto;
-    width: 168px;
+    /* width: 168px; */
     height: 100%;
+    padding: 0 50px;
 
 
 /* Inside auto layout */
@@ -76,9 +76,10 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 0 50px;
 
     margin: 0 auto;
-    width: 150px;
+    /* width: 150px; */
     height: 100%;
 
 
@@ -109,8 +110,9 @@
     gap: 10px;
 
     margin: 0 auto;
-    width: 138px;
+    /* width: 138px; */
     height: 100%;
+    padding: 0 50px;
 
 
 /* Inside auto layout */
@@ -148,6 +150,7 @@
     margin: 0 auto;
 
     height: 100%;
+    padding: 0 50px;
 
 
     /* Inside auto layout */
@@ -175,8 +178,9 @@
     gap: 10px;
 
     margin: 0 auto;
-    width: 206px;
+    /*   */
     height: 100%;
+    padding: 0 50px;
 
 
     /* Inside auto layout */
@@ -228,7 +232,7 @@
     width: 100vw;
     height: 500px;
     top: 128px;
-    left:-652px;
+    left:-662px;
     z-index: 5;
     background: white;
     color: black;
