@@ -206,6 +206,65 @@
     width: 68px;
     height: 42px;
 }
+#icon1:hover{
+    cursor: pointer;
+}
+#SMContainer{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(128, 128, 128,0.5);
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+#SMMain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: rgb(211, 211, 211);
+    align-items: center;
+    position: absolute;
+    top: 128px;
+    opacity: 1;
+}
+#search{
+    width: 500px;
+    height: 60px;
+    border: none;
+    padding: 30px;
+    font-size: 25px;
+}
+#search:focus {outline:none;}
+#SMClose{
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SMClose{
+    height: 60px;
+    width: 50px;
+    border: none;
+    background-color: white;
+}
+.bi:before{
+    font-size: 30px;
+    background-color: white;
+}
+.SMClose:hover{
+    cursor: pointer;
+}
+#SMSearch{
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #main1:hover,#main2:hover,#main3:hover,#main4:hover, #main5:hover{
     cursor: pointer;
     font-weight: 800;

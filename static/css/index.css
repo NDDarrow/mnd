@@ -1,0 +1,41 @@
+@media screen and (min-width: 1024px) {
+    body {width: 100%; overflow-x: hidden;}
+}
+
+#slide {
+    position: relative;
+    width: 1920px;
+    height: 612px;
+    overflow: hidden;
+}
+
+#slide ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4200px;
+}
+
+#slide ul li {
+    float: left;
+    width: 1920px;
+    height: 612px;
+    overflow: hidden;
+}
+
+#subMenu {
+    width: 1920px;
+    height: 114px;
+    background: linear-gradient(180deg, #44576D 0%, rgba(68, 87, 109, 0) 100%);
+}
+
+#title {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+    font-family: 'Inter';
+    font-size: 36px;
+    word-spacing: 65px;
+    color: #122f50;
+} 
