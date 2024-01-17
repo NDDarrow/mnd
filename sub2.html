@@ -172,21 +172,21 @@
     </div>
     <div id="main_detail">
         <div id="main_detail_left">
-            <div class="main_detail_left_list" onclick="change(this)">육군</div>
+            <div class="main_detail_left_list" onclick="change(this)" style="background:lightgray">육군</div>
             <div class="main_detail_left_list" onclick="change(this)">공군</div>
             <div class="main_detail_left_list" onclick="change(this)">해군/해병대</div>
             <div class="main_detail_left_list" onclick="change(this)">기타</div>
         </div>
         <div id="main_detail_right1" class="육군" style="display: block;"> <!--육군-->
             <div class="main_detail_right_head1">
-                <div class="main_detail_right_head_list">K9자주포</div>
-                <div class="main_detail_right_head_list">K2 전차</div>
-                <div class="main_detail_right_head_list">K21 보병전투장갑차</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">K9자주포</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">K2전차</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">K21보병전투장갑차</div>
                 <div class="main_detail_right_head_list">K200A1 한국형 장갑차</div>
                 <div class="main_detail_right_head_list">K30자주대공포</div>
                 <div class="main_detail_right_head_list">무인수색차량</div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail K9자주포" style="display: flex;">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">K-9자주포</div>
@@ -212,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail K2전차">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">K-2전차</div>
@@ -238,7 +238,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail K21보병전투장갑차">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">K21 보병전투장갑차</div>
@@ -268,14 +268,14 @@
 
         <div id="main_detail_right2" class="공군" style="display: none;"> <!--공군-->
             <div class="main_detail_right_head">
-                <div class="main_detail_right_head_list">F-35A</div>
-                <div class="main_detail_right_head_list">F-15K</div>
-                <div class="main_detail_right_head_list">KF-21</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">F-35A</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">F-15K</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">KF-21</div>
                 <div class="main_detail_right_head_list">C-130J</div>
                 <div class="main_detail_right_head_list">E-737</div>
                 <div class="main_detail_right_head_list">T-50</div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail F-35A" style="display: flex;">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">F-35A Freedom Knight</div>
@@ -301,7 +301,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail F-15K">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">F-15A Slam Eagle</div>
@@ -327,7 +327,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail KF-21">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">KF-21 Boramae</div>
@@ -357,14 +357,14 @@
 
         <div id="main_detail_right3" class="해군/해병대" style="display: none;"> <!--해군-->
             <div class="main_detail_right_head">
-                <div class="main_detail_right_head_list">DDG</div>
-                <div class="main_detail_right_head_list">DDH-Ⅱ</div>
-                <div class="main_detail_right_head_list">SS-Ⅲ</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">DDG</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">DDH-Ⅱ</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">SS-Ⅲ</div>
                 <div class="main_detail_right_head_list">SS-Ⅱ</div>
                 <div class="main_detail_right_head_list">P-3</div>
                 <div class="main_detail_right_head_list">LYNX</div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail DDG" style="display: flex;">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">DDG 세종대왕함급</div>
@@ -390,7 +390,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail DDH-Ⅱ">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">DDH-Ⅱ 충무공이순신급</div>
@@ -416,7 +416,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail SS-Ⅲ">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">SS-Ⅲ 도산안창호급</div>
@@ -445,12 +445,12 @@
         </div>
         <div id="main_detail_right4" class="기타" style="display: none;"> <!--기타-->
             <div class="main_detail_right_head">
-                <div class="main_detail_right_head_list">개인화기</div>
-                <div class="main_detail_right_head_list">자동화기</div>
-                <div class="main_detail_right_head_list">무전기</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">개인화기</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">자동화기</div>
+                <div class="main_detail_right_head_list" onclick="change2(this)">무전기</div>
                 <div class="main_detail_right_head_list">방독면</div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail 개인화기" style="display: flex;">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">개인화기</div>
@@ -476,7 +476,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail 자동화기">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">자동화기</div>
@@ -494,7 +494,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail">
+            <div class="main_detail_right_detail 무전기">
                 <div class="main_detail_right_detail_left">여긴우리 구역이다.</div>
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">무전기</div>

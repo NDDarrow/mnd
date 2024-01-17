@@ -105,6 +105,11 @@
     font-size: 32px;
     background: rgba(68, 87, 109, 0.22);
 }
+
+.main_detail_left_list:active{
+    background-color: lightgray;
+}
+
 .main_detail_right_head_list:hover{
     cursor: pointer;
 }
@@ -181,7 +186,4 @@
 }
 .MDRDRD:nth-child(1){
     border-bottom: 3px double lightgray;
-}
-.main_detail_right_detail:nth-child(2){
-    display: flex;
 }
