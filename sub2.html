@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="./static/css/header.css">
     <link rel="stylesheet" href="./static/css/sub2.css">
     <link rel="stylesheet" href="./static/css/footer.css">
+    <script src="./static/js/sub2.js"></script>
 </head>
 <body>
     <div id="header">
-        <div id="logo"><img src="./static/images/로고.jpg"></div>
+        <div id="logo">
+            <a href="index.html"><img src="./static/images/로고.jpg"></a></div>
         <div id="header_main">
             <div id="main1"><p>국방부소개</p>
                 <div class="header_sub">
@@ -170,12 +172,12 @@
     </div>
     <div id="main_detail">
         <div id="main_detail_left">
-            <div class="main_detail_left_list">육군</div>
-            <div class="main_detail_left_list">공군</div>
-            <div class="main_detail_left_list">해군/해병대</div>
-            <div class="main_detail_left_list">기타</div>
+            <div class="main_detail_left_list" onclick="change(this)">육군</div>
+            <div class="main_detail_left_list" onclick="change(this)">공군</div>
+            <div class="main_detail_left_list" onclick="change(this)">해군/해병대</div>
+            <div class="main_detail_left_list" onclick="change(this)">기타</div>
         </div>
-        <div id="main_detail_right1"> <!--육군-->
+        <div id="main_detail_right1" class="육군" style="display: block;"> <!--육군-->
             <div class="main_detail_right_head1">
                 <div class="main_detail_right_head_list">K9자주포</div>
                 <div class="main_detail_right_head_list">K2 전차</div>
@@ -264,7 +266,7 @@
             </div>
         </div>
 
-        <div id="main_detail_right2"> <!--공군-->
+        <div id="main_detail_right2" class="공군" style="display: none;"> <!--공군-->
             <div class="main_detail_right_head">
                 <div class="main_detail_right_head_list">F-35A</div>
                 <div class="main_detail_right_head_list">F-15K</div>
@@ -353,7 +355,7 @@
             </div>
         </div>
 
-        <div id="main_detail_right3"> <!--해군-->
+        <div id="main_detail_right3" class="해군/해병대" style="display: none;"> <!--해군-->
             <div class="main_detail_right_head">
                 <div class="main_detail_right_head_list">DDG</div>
                 <div class="main_detail_right_head_list">DDH-Ⅱ</div>
@@ -441,7 +443,7 @@
                 </div>
             </div>
         </div>
-        <div id="main_detail_right4"> <!--기타-->
+        <div id="main_detail_right4" class="기타" style="display: none;"> <!--기타-->
             <div class="main_detail_right_head">
                 <div class="main_detail_right_head_list">개인화기</div>
                 <div class="main_detail_right_head_list">자동화기</div>
