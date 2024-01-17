@@ -8,20 +8,7 @@
     width: 100vw;
     height: 130px;
 
-    background: linear-gradient(180deg, rgba(18, 47, 80, 0.25) 0%, rgba(18, 47, 80, 0) 100%);
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
     
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 44px;
-    letter-spacing: 0.2em;
-
-    color: #44576D;
 }
 #main_head_left{
     height: 100%;
