@@ -208,10 +208,11 @@
 }
 #main1:hover,#main2:hover,#main3:hover,#main4:hover, #main5:hover{
     cursor: pointer;
-    border-bottom: 5px solid lightblue;
+    font-weight: 800;
 }
 #main1:hover .header_sub{
     display: flex;
+
 }
 #main2:hover .header_sub{
     display: flex;
@@ -232,7 +233,7 @@
     width: 100vw;
     height: 500px;
     top: 128px;
-    left:-662px;
+    left:-466px;
     z-index: 5;
     background: white;
     color: black;

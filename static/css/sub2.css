@@ -3,10 +3,32 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
 
     width: 100vw;
     height: 130px;
+
+    
+}
+#main_head_left{
+    height: 100%;
+    width: 400px;
+    padding: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 40px;
+    border-bottom: 3px solid black;
+}
+#main_head_right{
+    height: 100%;
+    width:calc(100vw - 400px);
+    padding-right: auto;
+    padding-left: 50px;
+
+    display: flex;
+    align-items: center;
 
     background: linear-gradient(180deg, rgba(18, 47, 80, 0.25) 0%, rgba(18, 47, 80, 0) 100%);
     flex: none;
@@ -23,25 +45,6 @@
 
     color: #44576D;
 }
-#main_head_left{
-    height: 100%;
-    width: 400px;
-    padding: auto;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-#main_head_right{
-    height: 100%;
-    width:calc(100vw - 400px);
-    padding-right: auto;
-    padding-left: 50px;
-
-    display: flex;
-    align-items: center;
-}
 #main_detail{
     display: flex;
     flex-direction: row;
@@ -50,13 +53,16 @@
 
 #main_detail_left{
     width: 400px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+.main_detail_left_list:hover{
+    cursor: pointer;
 }
 .main_detail_left_list{
-    height: 200px;
+    height: 100px;
     width: 400px;
     font-size: 32px;
     padding: 0px;
@@ -64,31 +70,28 @@
     align-items: center;
     justify-content: center;
 
-    border-top: 3px solid #d1d1d1;
+    border-bottom: 3px solid #d1d1d1;
 }
-.main_detail_left_list:nth-child(1){
-    border-top:  3px solid black;
-}
+
+
 
 #main_detail_right1{ /*육군*/
     width: calc(100% - 400px);
     box-sizing: border-box;
-    display: none;
 }
 #main_detail_right2{ /*공군*/
     width: calc(100% - 400px);
     box-sizing: border-box;
-    display: none;
+
 }
 #main_detail_right3{ /*해군*/
     width: calc(100% - 400px);
     box-sizing: border-box;
-    display: none;
+
 }
 #main_detail_right4{ /*기타*/
     width: calc(100% - 400px);
     box-sizing: border-box;
-    display: none;
 }
 .main_detail_right_head{
     height: 100px;
@@ -101,6 +104,14 @@
 
     font-size: 32px;
     background: rgba(68, 87, 109, 0.22);
+}
+
+.main_detail_left_list:active{
+    background-color: lightgray;
+}
+
+.main_detail_right_head_list:hover{
+    cursor: pointer;
 }
 .main_detail_right_head1{
     height: 100px;
@@ -175,7 +186,4 @@
 }
 .MDRDRD:nth-child(1){
     border-bottom: 3px double lightgray;
-}
-.main_detail_right_detail:nth-child(4){
-    display: flex;
 }
