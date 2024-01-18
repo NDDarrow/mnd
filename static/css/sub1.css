@@ -54,6 +54,9 @@
 }
 .main_box:hover{
     cursor: pointer;
+    border: 3px solid #314a6e;
+    box-shadow: 0 0 10px raba(0,0,0,10);
+    transform: scale(1.1);  
 }
 
 /* Inside auto layout */

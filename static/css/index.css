@@ -24,14 +24,15 @@
 }
 
 #subMenu {
+    display: flex;
+    justify-content: space-evenly;
     width: 1920px;
     height: 114px;
-    background: linear-gradient(180deg, #44576D 0%, rgba(68, 87, 109, 0) 100%);
+    background: linear-gradient(180deg, #e9ecee 0%, rgba(68, 87, 109, 0) 100%);
+    
 }
 
 #title {
-    display: flex;
-    justify-content: space-evenly;
     align-items: center;
     padding-top: 40px;
     font-family: 'Inter';
@@ -39,3 +40,9 @@
     word-spacing: 65px;
     color: #122f50;
 } 
+
+#title:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
