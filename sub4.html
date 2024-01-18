@@ -14,11 +14,12 @@
 </head>
 <body>
     <div id="header">
-        <div id="logo"><img src="./static/images/로고.jpg"></div>
         <div id="header_main">
+            <div id="logo"><img src="./static/images/로고.jpg"></div>
             <div id="main1"><p>국방부소개</p>
                 <div class="header_sub">
-                    <div class="header_sub1"><img= src="./static/images/표어.jpg"></div>
+                    <div class="header_sub1">대한민국 국방부</div>
+                    <div class="header_sub1"><img= src="./static/images/표어.jpg" style="width:60px;"></div>
                     <div class="header_sub2">
                         <ul class="header_sub2_ul">
                             <li>정보공개제도</li>
@@ -169,6 +170,7 @@
             </div>
         </div>
     </div>
+
     <div id="search_modal" style="display: none;">
         <div id="SMContainer" onclick="searchClose()">
             <div id="SMMain">
@@ -192,52 +194,54 @@
             <div class="main_detail_left_list">관련기관 누리집</div>
             <div class="main_detail_left_list">찾아오시는 길</div>   
         </div>
-        <div id="map" style="width:792px;height:455px;"></div>
-        <script>
-            var container = document.getElementById('map');
-            var options = {
-                center: new kakao.maps.LatLng(37.53437, 126.9765),
-                level: 3
-            };
-            var map = new kakao.maps.Map(container, options);
-            var marker = new kakao.maps.Marker({
-		    position: new kakao.maps.LatLng(37.53437, 126.9765), // 마커의 좌표
-		    draggable : true, // 마커를 드래그 가능하도록 설정한다
-		    map: map // 마커를 표시할 지도 객체
-		    });
-        </script>
-        <div id="map_bottom">
-            <div class="MBD">
-                <span><img src="./static/images/마크.png"></span>
-                <span>우편번호 04383 서울특별시 용산구 이태원로 22</span>
+        <div id="mapWrap">
+            <div id="map" style="width:792px;height:455px;"></div>
+            <script>
+                var container = document.getElementById('map');
+                var options = {
+                    center: new kakao.maps.LatLng(37.53437, 126.9765),
+                    level: 3
+                };
+                var map = new kakao.maps.Map(container, options);
+                var marker = new kakao.maps.Marker({
+                position: new kakao.maps.LatLng(37.53437, 126.9765), // 마커의 좌표
+                draggable : true, // 마커를 드래그 가능하도록 설정한다
+                map: map // 마커를 표시할 지도 객체
+                });
+            </script>
+            <div id="map_bottom">
+                <div class="MBD">
+                    <span><img src="./static/images/마크.png"></span>
+                    <span>우편번호 04383 서울특별시 용산구 이태원로 22</span>
+                </div>
+                <div class="MBD"><img src="./static/images/폰.png">전화번호 : 02-748-1111, 국방콜센터 1577-9090</div>
+                <div class="MBD"><img src="./static/images/팩스.png">팩스 : 02-748-6895</div>
             </div>
-            <div class="MBD"><img src="./static/images/폰.png">전화번호 : 02-748-1111, 국방콜센터 1577-9090</div>
-            <div class="MBD"><img src="./static/images/팩스.png">팩스 : 02-748-6895</div>
-        </div>
-        <div id="map2">
-            <img src="./static/images/교통.png">
-            
+            <div id="map2">
+                <img src="./static/images/교통.png">
+            </div>
         </div>
     </div>           
 
     <div id="footer">
-        <div id="footer1">
-            <div class="footer1_detail">개인정보처리방침</div>
-            <div class="footer1_detail">조직 및 직원안내</div>
-            <div class="footer1_detail">뷰어내려받기</div>
-            <div class="footer1_detail">저작권정책</div>
-            <div class="footer1_detail">오시는길</div>
-            <div class="footer1_detail">누리집개선제안</div>
-            <div class="footer1_detail">소식지신청</div>
-            <div class="footer1_detail">이용안내</div>
-            <div class="footer1_detail">정보연결(Rss)서비스</div>
+        <div id="footerWrap">
+            <div id="footer1">
+                <div class="footer1_detail">개인정보처리방침</div>
+                <div class="footer1_detail">조직 및 직원안내</div>
+                <div class="footer1_detail">뷰어내려받기</div>
+                <div class="footer1_detail">저작권정책</div>
+                <div class="footer1_detail">오시는길</div>
+                <div class="footer1_detail">누리집개선제안</div>
+                <div class="footer1_detail">소식지신청</div>
+                <div class="footer1_detail">이용안내</div>
+                <div class="footer1_detail">정보연결(Rss)서비스</div>
+            </div>
+            <div id="footer2">[04383] 서울특별시 용산구 이태원로22</div>
+            <div id="footer3">국방민원콜센터 1577-9090 (월~금 09:00~18:00 공휴일 제외, 유료) / 팩스 02-748-6895 <br>
+                정부민원안내콜센터 국번없이 110 (무료)<br>
+                이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며, 이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
+            </div>    
         </div>
-        <div id="footer2">[04383] 서울특별시 용산구 이태원로22</div>
-        <div id="footer3">국방민원콜센터 1577-9090(월~금 09:00~18:00 공휴일 제외, 유료 / 팩스 02) 748-6895 <br>
-            정부민원안내콜센터 국번없이 110(무료)<br>
-            이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며, 이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
-        </div>
-        
     </div>
 
 

@@ -5,10 +5,10 @@
 /* header */
 #header{
     height: 128px;
-    padding-right: 100px;
     background: #212830;
     z-index: 1;
-    width: 100vw;
+    width: 90vw;
+    min-width: 1920px;
 
     /* Inside auto layout */
     flex: none;
@@ -37,6 +37,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
+    width: 1920px;
 }
 
 #main1{
@@ -234,24 +235,24 @@
     border: none;
     padding: 30px;
     font-size: 25px;
+    margin: 0;
 }
 #search:focus {outline:none;}
-#SMClose{
-    height: 60px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .SMClose{
     height: 60px;
     width: 50px;
     border: none;
     background-color: white;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 .bi:before{
     font-size: 30px;
     background-color: white;
+    margin: 0;
 }
 .SMClose:hover{
     cursor: pointer;
@@ -262,8 +263,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
-
+#SMClose{
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
 
 #main1:hover,#main2:hover,#main3:hover,#main4:hover, #main5:hover{
     cursor: pointer;
@@ -289,16 +298,18 @@
 .header_sub{
     position: absolute;
     display: none;
+    /* max-width: 1920px; */
     width: 100vw;
-    height: 500px;
+    max-width: 1920px;
+    height: 350px;
     top: 128px;
-    left:-466px;
+    left: 0px;
     z-index: 5;
     background: white;
     color: black;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    /* gap: 100px; */
 }
 .header_sub1{
     z-index: 6;
@@ -309,7 +320,7 @@
 }
 .header_sub2{
     z-index: 6;
-    width: 300px;
+    width: 20%;
     height: 100%;
     font-size: 20px;
     display: flex;

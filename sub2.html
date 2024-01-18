@@ -13,12 +13,12 @@
 </head>
 <body>
     <div id="header">
-        <div id="logo">
-            <a href="index.html"><img src="./static/images/로고.jpg"></a></div>
         <div id="header_main">
+            <div id="logo"><img src="./static/images/로고.jpg"></div>
             <div id="main1"><p>국방부소개</p>
                 <div class="header_sub">
                     <div class="header_sub1">대한민국 국방부</div>
+                    <div class="header_sub1"><img= src="./static/images/표어.jpg" style="width:60px;"></div>
                     <div class="header_sub2">
                         <ul class="header_sub2_ul">
                             <li>정보공개제도</li>
@@ -164,9 +164,12 @@
                     </div>
                 </div>
             </div>
-            <div id="icon1"><img src="./static/images/search.png"  onclick="searchOpen()"></div>
+            <div id="icon1">
+                <img src="./static/images/search.png" onclick="searchOpen()">
+            </div>
         </div>
     </div>
+    
     <div id="search_modal" style="display: none;">
         <div id="SMContainer" onclick="searchClose()">
             <div id="SMMain">
@@ -566,23 +569,24 @@
     </div>
 
     <div id="footer">
-        <div id="footer1">
-            <div class="footer1_detail">개인정보처리방침</div>
-            <div class="footer1_detail">조직 및 직원안내</div>
-            <div class="footer1_detail">뷰어내려받기</div>
-            <div class="footer1_detail">저작권정책</div>
-            <div class="footer1_detail">오시는길</div>
-            <div class="footer1_detail">누리집개선제안</div>
-            <div class="footer1_detail">소식지신청</div>
-            <div class="footer1_detail">이용안내</div>
-            <div class="footer1_detail">정보연결(Rss)서비스</div>
+        <div id="footerWrap">
+            <div id="footer1">
+                <div class="footer1_detail">개인정보처리방침</div>
+                <div class="footer1_detail">조직 및 직원안내</div>
+                <div class="footer1_detail">뷰어내려받기</div>
+                <div class="footer1_detail">저작권정책</div>
+                <div class="footer1_detail">오시는길</div>
+                <div class="footer1_detail">누리집개선제안</div>
+                <div class="footer1_detail">소식지신청</div>
+                <div class="footer1_detail">이용안내</div>
+                <div class="footer1_detail">정보연결(Rss)서비스</div>
+            </div>
+            <div id="footer2">[04383] 서울특별시 용산구 이태원로22</div>
+            <div id="footer3">국방민원콜센터 1577-9090 (월~금 09:00~18:00 공휴일 제외, 유료) / 팩스 02-748-6895 <br>
+                정부민원안내콜센터 국번없이 110 (무료)<br>
+                이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며, 이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
+            </div>    
         </div>
-        <div id="footer2">[04383] 서울특별시 용산구 이태원로22</div>
-        <div id="footer3">국방민원콜센터 1577-9090 (월~금 09:00~18:00 공휴일 제외, 유료) / 팩스 02) 748-6895 <br>
-            정부민원안내콜센터 국번없이 110 (무료)<br>
-            이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며, 이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
-        </div>
-        
     </div>
 </body>
 </html>
