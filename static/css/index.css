@@ -2,6 +2,7 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
+
 @media screen and (min-width: 1024px) {
     body {width: 100%; overflow-x: hidden;}
 }
@@ -36,8 +37,7 @@
     align-items: center;
     width: 1920px;
     height: 114px;
-    background: linear-gradient(180deg, #e9ecee 0%, rgba(68, 87, 109, 0) 100%);
-    
+    background-color: #e9ecee;    
 }
 .title {
     align-items: center;
