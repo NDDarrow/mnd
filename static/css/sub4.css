@@ -1,6 +1,14 @@
 @media screen and (min-width:1024px) {
     body {width: 100%; overflow-x: hidden;}
 }
+@font-face {
+    font-family: '바른공군체', sans-serif;
+    src: url(./ROKAF\ Sans\ Medium.ttf);
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    font-family: '바른공군체',sans-serif;
+}
 
 #main_head{
     box-sizing:border-box;
@@ -11,7 +19,6 @@
     width: 90vw;
     max-width: 1920px;
     height: 130px;
-
     
 }
 #main_head_left{
@@ -98,6 +105,7 @@
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
     /* position: relative;
     width: 360px;    */
 }

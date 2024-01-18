@@ -3,9 +3,11 @@ function change(inner){
     var colors = document.getElementsByClassName('main_detail_left_list')
 
     for(var i = 0; i< colors.length; i++){
-        colors[i].style.background='none';
+        colors[i].style.fontWeight=500;
+        colors[i].style.color='gray';
     };
-    inner.style.background='lightgray';
+    inner.style.fontWeight=800;
+    inner.style.color='black';
 
     var targetList = ["육군","공군","해군/해병대","기타"];
     for(var i = 0; i < targetList.length; i++){
@@ -49,9 +51,11 @@ function change2(inner){
     var spe = inner.innerHTML;
 
     for(var i = 0; i< colors.length; i++){
-        colors[i].style.background='none';
+        colors[i].style.fontWeight='500';
+        colors[i].style.color='gray';
     };
-    inner.style.background='lightgray';
+    inner.style.fontWeight=800;
+    inner.style.color='black';
 
 
     var targets = document.getElementsByClassName('main_detail_right_detail')

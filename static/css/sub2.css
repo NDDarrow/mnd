@@ -75,6 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: gray;
 
     border-bottom: 3px solid #d1d1d1;
 }
@@ -132,13 +133,16 @@
     align-items: center;
     gap: 150px;
     padding: 0px 100px;
+    border-top: 3px double lightgray;
+    border-bottom: 3px double lightgray;
 
     font-size: 32px;
-    background: rgba(68, 87, 109, 0.22);
+    /* background: rgba(68, 87, 109, 0.22); */
 }
 
-.main_detail_left_list:active{
-    background-color: lightgray;
+.main_detail_left_list:hover{
+    font-weight: 800;
+    color: black;
 }
 
 .main_detail_right_head_list:hover{
@@ -152,13 +156,16 @@
     align-items: center;
     gap: 150px;
     margin: 0px 100px;
+    color: gray;
+
 
     font-size: 32px;
-    background: rgba(68, 87, 109, 0.22);
+    /* background: rgba(68, 87, 109, 0.22); */
     overflow: hidden;
 }
 #육군전용{
-    background: rgba(68, 87, 109, 0.22);
+    border-top: 3px double lightgray;
+    border-bottom: 3px double lightgray;
 }
 .main_detail_right_head1:nth-of-type(1){
     overflow: hidden;

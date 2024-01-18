@@ -1,3 +1,7 @@
+body{
+    font-family: '바른공군체',sans-serif;
+}
+
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
@@ -59,7 +63,6 @@
     align-self: stretch;
     flex-grow: 0;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -90,7 +93,6 @@
     align-self: stretch;
     flex-grow: 0;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -121,8 +123,6 @@
     order: 2;
     align-self: stretch;
     flex-grow: 0;
-
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -160,7 +160,6 @@
     align-self: stretch;
     flex-grow: 0;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -190,7 +189,6 @@
     align-self: stretch;
     flex-grow: 0;
 
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;

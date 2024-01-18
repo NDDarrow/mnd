@@ -39,17 +39,15 @@
     background: linear-gradient(180deg, #e9ecee 0%, rgba(68, 87, 109, 0) 100%);
     
 }
-
-#title {
+.title {
     align-items: center;
     /* padding-top: 40px; */
-    font-family: 'Inter';
     font-size: 36px;
     word-spacing: 65px;
     color: #122f50;
 } 
 
-#title:hover{
+.title:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
