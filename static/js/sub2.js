@@ -63,3 +63,35 @@ function change2(inner){
     
     target[0].style.display='flex';
 };
+window.onload=function(){
+    var scrollMove = document.querySelector('.arrows');
+    var left = document.querySelector('.arrow-left');
+    var right = document.querySelector('.arrow-right');
+    var scrollInterval;
+
+    console.log(left)
+
+    right.addEventListener('mousedown',function(){
+        scrollInterval = setInterval(function(){
+            scrollMove.scrollLeft += 8;
+        }, 10);
+    });
+    right.addEventListener('mouseup',function(){
+        clearInterval(scrollInterval);
+    });
+
+    left.addEventListener('mousedown',function(){
+        scrollInterval = setInterval(function(){
+            scrollMove.scrollLeft -= 8;
+        }, 10);
+    });
+    left.addEventListener('mouseup',function(){
+        clearInterval(scrollInterval);
+    });
+
+    [right, left].forEach(function(arrow) {
+        arrow.addEventListener('mouseleave', function() {
+            clearInterval(scrollInterval);
+        });
+    });
+};
