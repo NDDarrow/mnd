@@ -1,17 +1,21 @@
+*{
+    margin: 0 auto;
+}
 #main_head{
     box-sizing:border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    width: 100vw;
+    width: 90vw;
+    max-width: 1920px;
     height: 130px;
 
-    
 }
 #main_head_left{
     height: 100%;
-    width: 400px;
+    width: 20%;
+    min-width: 384px;
     padding: auto;
     
     display: flex;
@@ -22,9 +26,8 @@
     border-bottom: 3px solid black;
 }
 #main_head_right{
-    height: 100%;
-    width:calc(100vw - 400px);
-    padding-right: auto;
+    width: 80%;
+    min-width: 1344px;
     padding-left: 50px;
 
     display: flex;
@@ -48,11 +51,13 @@
 #main_detail{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 90vw;
+    max-width: 1920px;
+    
 }
 
 #main_detail_left{
-    width: 400px;
+    width: 384px;
 
     display: flex;
     flex-direction: column;
@@ -63,7 +68,7 @@
 }
 .main_detail_left_list{
     height: 100px;
-    width: 400px;
+    width: 384px;
     font-size: 32px;
     padding: 0px;
     display: flex;
@@ -76,18 +81,22 @@
 
 
 #main_detail_right1{ /*육군*/
-    width: calc(100% - 400px);
+    /* width: 1536px; */
     box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 #arrow1,#arrow2{
     position: absolute;
 }
 
 #arrow1{
-    left: 450px;
+    left: 50px;
 }
 #arrow2{
-    left: 1820px;
+    right: 50px;
 }
 .arrow:hover{
     cursor: pointer;

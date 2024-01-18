@@ -56,7 +56,6 @@
 .main_box:hover{
     cursor: pointer;
     border: 5px solid #314a6e;
-    box-shadow:0 0 0 20px rgba(49, 74, 110, 0.5) outset;
     transform: scale(1.1);  
 }
 .main_box:nth-child(12){
