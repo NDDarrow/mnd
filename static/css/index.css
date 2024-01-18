@@ -3,24 +3,27 @@
 }
 
 #slide {
-    position: relative;
     width: 1920px;
     height: 612px;
+    position: relative;
     overflow: hidden;
 }
 
-#slide ul {
+.slideImg {
+    width: 5760px;
+    height: 612px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 4200px;
+} 
+
+.slideImg li {
+    float: left;
 }
 
-#slide ul li {
-    float: left;
+.slideImg img {
     width: 1920px;
     height: 612px;
-    overflow: hidden;
 }
 
 #subMenu {

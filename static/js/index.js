@@ -1,12 +1,11 @@
-var i = 0;
+$(function() {
+    $('.slideImg li').last().prependTo('.slideImg');
+    $('.slideImg').css('left', -1920);
 
-function show() {
-    if(i >= 2) {
-        i = 0
-    } else {
-        i++;
-    }
-    $("#slide ul").animate({left:i * 1920 * (-1)}, 500);
-}
-
-setInterval(show, 2300)
+    setInterval(function() {
+        $('.slideImg').animate({left:'-='+1920}, 'slow', function() {
+            $('.slideImg li').first().appendTo('.slideImg');
+            $('.slideImg').css('left', -1920);
+        });
+    }, 5000);
+});
