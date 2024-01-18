@@ -34,6 +34,7 @@
 #subMenu {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 1920px;
     height: 114px;
     background-color: #e9ecee;    
@@ -41,7 +42,7 @@
 
 .title {
     align-items: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     font-family: 'Inter';
     font-size: 36px;
     word-spacing: 65px;

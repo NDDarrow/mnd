@@ -238,20 +238,16 @@
     margin: 0;
 }
 #search:focus {outline:none;}
-#SMClose{
-    height: 60px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
+
 .SMClose{
     height: 60px;
     width: 50px;
     border: none;
     background-color: white;
-    margin: 0;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 .bi:before{
     font-size: 30px;
@@ -269,7 +265,14 @@
     align-items: center;
     margin: 0;
 }
-
+#SMClose{
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
 
 #main1:hover,#main2:hover,#main3:hover,#main4:hover, #main5:hover{
     cursor: pointer;
@@ -297,10 +300,10 @@
     display: none;
     /* max-width: 1920px; */
     width: 100vw;
-    min-width: 1920px;
+    max-width: 1920px;
     height: 350px;
     top: 128px;
-    left:0px;
+    left: 0px;
     z-index: 5;
     background: white;
     color: black;
