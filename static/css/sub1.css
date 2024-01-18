@@ -39,7 +39,6 @@
     flex-wrap: wrap;
     flex-direction: wrap;
     gap: 110px;
-    
 }
 .main_box{
     margin: 0 auto;
@@ -55,6 +54,11 @@
 .main_box:hover{
     cursor: pointer;
 }
-
+.main_box:nth-child(12){
+    border: none;
+}
+.main_box:nth-child(12):hover{
+    cursor: default;
+}
 /* Inside auto layout */
 
