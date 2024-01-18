@@ -53,11 +53,11 @@
 
 #main_detail_left{
     width: 400px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .main_detail_left_list:hover{
     cursor: pointer;
 }
