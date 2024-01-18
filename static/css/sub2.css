@@ -79,6 +79,27 @@
     width: calc(100% - 400px);
     box-sizing: border-box;
 }
+#arrow1,#arrow2{
+    position: absolute;
+}
+
+#arrow1{
+    left: 450px;
+}
+#arrow2{
+    left: 1820px;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+
+
+.bi-chevron-left::before{
+    background-color:transparent;
+}
+.bi-chevron-right::before{
+    background-color: transparent;
+}
 #main_detail_right2{ /*공군*/
     width: calc(100% - 400px);
     box-sizing: border-box;
@@ -115,22 +136,30 @@
 }
 .main_detail_right_head1{
     height: 100px;
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 150px;
-    padding: 0px 100px;
+    margin: 0px 100px;
 
     font-size: 32px;
+    background: rgba(68, 87, 109, 0.22);
+    overflow: hidden;
+}
+#육군전용{
     background: rgba(68, 87, 109, 0.22);
 }
 .main_detail_right_head1:nth-of-type(1){
     overflow: hidden;
+    background: none;
 }
-.main_detail_right_head1:nth-of-type(1):hover{
+/* .main_detail_right_head1:nth-of-type(1):hover{
     overflow: scroll;
 }
+.main_detail_right_head1:nth-of-type(1):hover::-webkit-scrollbar {
+    display: none;
+} */
 .main_detail_right_head_list{
     height: 100%;
     white-space: nowrap;

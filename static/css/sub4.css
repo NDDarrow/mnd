@@ -1,3 +1,7 @@
+@media screen and (min-width:1024px) {
+    body {width: 100%; overflow-x: hidden;}
+}
+
 #main_head{
     box-sizing:border-box;
     display: flex;
@@ -76,12 +80,31 @@
 #map1{   
     position: relative;
     left: 15px;
-    width: 360px;
+    width: 700px;
+    height: 400px;
      
 }
 #map2{
     position: relative;
+    width: 360px;   
+}
+#map_bottom{
+    position: absolute;
+    height: 50px;
+    width: 792px;
+    top: 713px;
     left: 400px;
-    width: 360px;
-    
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.MBD{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }

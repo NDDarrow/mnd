@@ -189,20 +189,24 @@
             <div class="main_detail_left_list" onclick="change(this)">기타</div>
         </div>
         <div id="main_detail_right1" class="육군" style="display: block;"> <!--육군-->
-            <div class="main_detail_right_head1">
-                <div class="main_detail_right_head_list" onclick="change2(this)">K9자주포</div>
-                <div class="main_detail_right_head_list" onclick="change2(this)">K2전차</div>
-                <div class="main_detail_right_head_list" onclick="change2(this)">K21보병전투장갑차</div>
-                <div class="main_detail_right_head_list">K200A1 한국형 장갑차</div>
-                <div class="main_detail_right_head_list">K30자주대공포</div>
-                <div class="main_detail_right_head_list">무인수색차량</div>
+            <div id="육군전용">
+                <div class="main_detail_right_head1 arrows">
+                    <div id="arrow1" class="arrow arrow-left"><i class="bi bi-chevron-left"></i></div>
+                    <div class="main_detail_right_head_list" onclick="change2(this)">K9자주포</div>
+                    <div class="main_detail_right_head_list" onclick="change2(this)">K2전차</div>
+                    <div class="main_detail_right_head_list" onclick="change2(this)">K21보병전투장갑차</div>
+                    <div class="main_detail_right_head_list">K200A1 한국형 장갑차</div>
+                    <div class="main_detail_right_head_list">K30자주대공포</div>
+                    <div class="main_detail_right_head_list">무인수색차량</div>
+                    <div id="arrow2" class="arrow arrow-right"><i class="bi bi-chevron-right"></i></div>
+                </div>
             </div>
             <div class="main_detail_right_detail K9자주포" style="display: flex;">
                 <div class="main_detail_right_detail_left">
                     <img src="./static/images/k9.jpg" style="width: 450px;">
                     <img src="./static/images/육군.png" style="width: 450px;">
                 </div>
-               
+                
                 <div class="main_detail_right_detail_right">
                     <div class="MDRDRD">K-9자주포</div>
                     <div class="MDRDRD">
@@ -228,7 +232,7 @@
                 </div>
             </div>
 
-            <div class="main_detail_right_detail K2전차" style="display: flex;">
+            <div class="main_detail_right_detail K2전차" style="display: none;">
                     <div class="main_detail_right_detail_left">
                         <img src="./static/images/k2전차.jpg" style="width: 450px;">
                         <img src="./static/images/육군.png" style="width: 450px;">
@@ -257,7 +261,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main_detail_right_detail K21보병전투장갑차" style="display: flex;">
+            <div class="main_detail_right_detail K21보병전투장갑차" style="display:none;">
                 <div class="main_detail_right_detail_left">
                     <img src="./static/images/k21.png" style="width: 450px;">
                     <img src="./static/images/육군.png" style="width: 450px;">
@@ -576,11 +580,9 @@
         <div id="footer2">[04383] 서울특별시 용산구 이태원로22</div>
         <div id="footer3">국방민원콜센터 1577-9090 (월~금 09:00~18:00 공휴일 제외, 유료) / 팩스 02) 748-6895 <br>
             정부민원안내콜센터 국번없이 110 (무료)<br>
-            이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며, 이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</div>
+            이 누리집에 쓰인 전자우편 주소가 자동 수집되는 것을 거부하며, 이를 위반하면 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.
+        </div>
         
-        <div id="footer4">
-            <select id="footer_search" name="footer_search"></select>
-        </div> 
     </div>
 </body>
 </html>
