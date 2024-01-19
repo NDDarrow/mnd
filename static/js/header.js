@@ -14,3 +14,9 @@ function searchClose(){
     console.log(MC)
     MC.style.display='none'
 };
+
+
+function sub2(link){
+    window.location.href = link;
+}
+

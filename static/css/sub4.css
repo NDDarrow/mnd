@@ -1,9 +1,10 @@
 @media screen and (min-width:1024px) {
     body {width: 100%; overflow-x: hidden;}
 }
+
 @font-face {
     font-family: '바른공군체', sans-serif;
-    src: url(./ROKAF\ Sans\ Medium.ttf);
+    src: url(C:\NDDarrow\mnd\static\css\ROKAF_Sans_Medium.ttf);
 }
 body{
     font-family: '바른공군체',sans-serif;

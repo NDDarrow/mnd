@@ -1,5 +1,6 @@
 body{
     font-family: '바른공군체',sans-serif;
+    font-weight: 700;
 }
 
 *{
@@ -24,12 +25,15 @@ body{
     }
 
     /* logo */
-    #logo{
+#logo{
     width: 472px;
     height: 128px;
     left: 0px;
     top: 0px;
     z-index: 2;
+}
+#logo:hover{
+    cursor: pointer;
 }
 
 /* header_main */
@@ -308,6 +312,7 @@ body{
     color: black;
     flex-direction: row;
     align-items: center;
+    margin: 0;
     /* gap: 100px; */
 }
 .header_sub1{

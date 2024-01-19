@@ -24,7 +24,8 @@ function change(inner){
             reset[i].style.display='none';
         }
         for(var i = 0; i< colors.length; i++){
-            colors[i].style.background='none';
+            colors[i].style.color='gray';
+            colors[i].style.fontWeight='500';
         }
         document.getElementsByClassName('K9자주포')[0].style.display='flex'
     }
