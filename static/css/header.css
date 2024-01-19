@@ -65,7 +65,7 @@ body{
 
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #FFFFFF;
     flex: none;
@@ -95,7 +95,7 @@ body{
 
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #FFFFFF;
     flex: none;
@@ -125,7 +125,7 @@ body{
     flex-grow: 0;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #FFFFFF;
     flex: none;
@@ -162,7 +162,7 @@ body{
 
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #FFFFFF;
     flex: none;
@@ -191,7 +191,7 @@ body{
 
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #FFFFFF;
     flex: none;
@@ -202,8 +202,9 @@ body{
 
 
 #icon1{
-    width: 68px;
-    height: 42px;
+    padding-right: 100px;
+    width: 65px;
+    height: 35px;
 }
 #icon1:hover{
     cursor: pointer;
