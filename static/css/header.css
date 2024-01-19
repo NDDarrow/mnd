@@ -316,6 +316,9 @@ body{
     align-items: center;
     margin: 0;
 }
+.header_sub:hover{
+    cursor: default;
+}
 .header_sub1{
     z-index: 6;
     width: 20%;
@@ -340,4 +343,7 @@ body{
 }
 .header_sub2:nth-child(4){
     border: none;
+}
+.header_sub2 li:hover{
+    cursor: pointer;
 }
