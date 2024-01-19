@@ -1,11 +1,13 @@
 body{
     font-family: '바른공군체',sans-serif;
     font-weight: 700;
+    
 }
 
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 /* header */
 #header{
@@ -313,7 +315,6 @@ body{
     flex-direction: row;
     align-items: center;
     margin: 0;
-    gap: 100px;
 }
 .header_sub1{
     z-index: 6;
@@ -330,5 +331,10 @@ body{
     display: flex;
     flex-direction: column;
     line-height: 40px;
-    margin: 0 20px;
+    margin: 0;
+    padding: 0 100px;
+    border-right: 4px solid lightgray;
+}
+.header_sub2:nth-child(4){
+    border: none;
 }
