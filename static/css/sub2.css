@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
 
-    background: linear-gradient(180deg, rgba(18, 47, 80, 0.25) 0%, rgba(18, 47, 80, 0) 100%);
+    background: linear-gradient(180deg, rgba(77, 98, 124, 0.2) 0%, rgba(45, 75, 110, 0) 100%);
     flex: none;
     order: 1;
     align-self: stretch;
@@ -45,7 +45,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
 
     color: #44576D;
 }
@@ -192,7 +192,7 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 28px;
+    font-size: 23px;
 }
 .main_detail_right_detail_left{
     width: 500px;
