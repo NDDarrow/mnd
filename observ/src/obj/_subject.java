@@ -16,6 +16,7 @@ public class _subject implements subject{
 
 	@Override
 	public void removeObserver(buddy bud) {
+		System.out.println( bud.name + "가 구독을 해지했습니다.");
 		subList.remove(bud);
 	}
 
@@ -23,6 +24,18 @@ public class _subject implements subject{
 	public void updateObserver(String ment) {
 		System.out.println(subList.size() + "명의 구독자에게 알람 발사");
 		subList.forEach(bud -> bud.update( bud.name + ment));
+	}
+
+	@Override
+	public void donationObserver() {
+		System.out.println("기부 금액 확인");
+		subList.forEach(bud -> bud.check());
+		
+	}
+
+	@Override
+	public void donationObserver(buddy bud) {
+		bud.check();
 	}
 	
 
