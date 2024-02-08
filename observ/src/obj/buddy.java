@@ -17,7 +17,7 @@ public class buddy implements Observer{
 	}
 	@Override
 	public void check() {
-		System.out.println("기부금액 " + M +"원");
+		System.out.println(name + "님의 기부금액 " + M +"원");
 		
 	}
 	

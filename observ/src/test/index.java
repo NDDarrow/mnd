@@ -16,6 +16,7 @@ public class index {
 		gyerim.setObserver(minsu);
 		gyerim.setObserver(garam);
 		gyerim.setObserver(dahui);
+		gyerim.setObserver(jaehong);
 		
 		gyerim.donationObserver(minsu);
 		gyerim.updateObserver(" 알람 확인");
@@ -25,6 +26,8 @@ public class index {
 		gyerim.updateObserver(" 알람 확인");
 		
 		gyerim.donationObserver();
+		
+		gyerim.donationObserver(jaehong);
 		
 		
 		
