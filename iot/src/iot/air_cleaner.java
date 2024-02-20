@@ -6,11 +6,15 @@ public class air_cleaner implements home_app{
 	
 	public air_cleaner(Sensor sensor) {
 		this.ad = sensor.ad;
+		action(sensor);
 	}
 	
 	@Override
 	public void action(Sensor sensor) {
-		
+		if(sensor.ad > 25) 
+			work = true;
+		else work = false;
+		System.out.println(toString());
 		
 	}
 	public String toString() {

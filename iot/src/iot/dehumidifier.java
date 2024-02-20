@@ -5,10 +5,14 @@ public class dehumidifier implements home_app{
 	float hum;
 	public dehumidifier(Sensor sensor) {
 		this.hum = sensor.hum;
+		action(sensor);
 	}
 	@Override
 	public void action(Sensor sensor) {
-		
+		if(sensor.hum > 50.0) 
+			this.work =true;
+		else work = false;
+		System.out.println(toString());
 		
 	}
 	public String toString() {
