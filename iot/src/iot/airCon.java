@@ -2,8 +2,8 @@ package iot;
 
 public class airCon implements home_app{
 	boolean work = false;
-	public airCon(Sensor sensor) {
-		action(sensor);
+	public airCon() {
+		
 	}
 	
 	@Override

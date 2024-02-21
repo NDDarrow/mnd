@@ -2,10 +2,9 @@ package iot;
 
 public class dehumidifier implements home_app{
 	boolean work = false;
-	float hum;
-	public dehumidifier(Sensor sensor) {
-		this.hum = sensor.hum;
-		action(sensor);
+	
+	public dehumidifier() {
+		
 	}
 	@Override
 	public void action(Sensor sensor) {

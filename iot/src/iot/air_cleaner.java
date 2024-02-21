@@ -1,16 +1,13 @@
 package iot;
 
 public class air_cleaner implements home_app{
-	int ad; 
 	boolean work = false;
 	
-	public air_cleaner(Sensor sensor) {
-		this.ad = sensor.ad;
-		action(sensor);
+	public air_cleaner() {
 	}
 	
 	@Override
-	public void action(Sensor sensor) {
+	public void action( Sensor sensor) {
 		if(sensor.ad > 25) 
 			work = true;
 		else work = false;

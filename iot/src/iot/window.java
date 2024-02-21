@@ -1,14 +1,13 @@
 package iot;
 
 public class window implements home_app{
-	int stat;
+	
 	boolean work = false;
 
-	public window(Sensor sensor) {
-		this.stat = sensor.type_weather;
-		action(sensor);
+	public window() {
+		
 	}
-
+		
 	
 	@Override
 	public void action(Sensor sensor) {
